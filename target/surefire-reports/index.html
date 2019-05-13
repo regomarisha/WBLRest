@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Rest_API_Test_Suite_" class="navigator-link">
+              <span class="suite-name border-passed">Rest API Test Suite </span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Rest_API_Test_Suite_" class="navigator-link ">
+                    <span>C:\Users\Marisha\Desktop\ll\WBLRest\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Rest_API_Test_Suite_" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Rest_API_Test_Suite_" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Rest_API_Test_Suite_" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Rest_API_Test_Suite_" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Rest_API_Test_Suite_" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Rest_API_Test_Suite_" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Rest_API_Test_Suite_" class="hide-methods passed suite-Rest_API_Test_Suite_"> (hide)</a> <!-- hide-methods passed suite-Rest_API_Test_Suite_ -->
+                      <a href="#" panel-name="suite-Rest_API_Test_Suite_" class="show-methods passed suite-Rest_API_Test_Suite_"> (show)</a> <!-- show-methods passed suite-Rest_API_Test_Suite_ -->
+                    </span>
+                    <div class="method-list-content passed suite-Rest_API_Test_Suite_">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_API_Test_Suite_" title="TestRequestResponse" class="method navigator-link" hash-for-method="create_User(Priya, Teacher)">create_User(Priya, Teacher)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_API_Test_Suite_" title="TestRequestResponse" class="method navigator-link" hash-for-method="delete">delete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_API_Test_Suite_" title="TestRequestResponse" class="method navigator-link" hash-for-method="getUser">getUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_API_Test_Suite_" title="TestRequestResponse" class="method navigator-link" hash-for-method="getUserList">getUserList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_API_Test_Suite_" title="TestRequestResponse" class="method navigator-link" hash-for-method="login(eve.holt@reqres.in, cityslicka)">login(eve.holt@reqres.in, cityslicka)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_API_Test_Suite_" title="TestRequestResponse" class="method navigator-link" hash-for-method="loginFailure">loginFailure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_API_Test_Suite_" title="TestRequestResponse" class="method navigator-link" hash-for-method="success_register(eve.holt@reqres.in, cityslicka)">success_register(eve.holt@reqres.in, cityslicka)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_API_Test_Suite_" title="TestRequestResponse" class="method navigator-link" hash-for-method="unsuccess_register">unsuccess_register</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Rest_API_Test_Suite_ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Rest_API_Test_Suite_" class="panel Rest_API_Test_Suite_">
+          <div class="suite-Rest_API_Test_Suite_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestRequestResponse</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_User(Priya, Teacher)">
+                  </a> <!-- create_User(Priya, Teacher) -->
+                  <span class="method-name">create_User</span>
+                  <span class="parameters">(Priya, Teacher)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="delete">
+                  </a> <!-- delete -->
+                  <span class="method-name">delete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUser">
+                  </a> <!-- getUser -->
+                  <span class="method-name">getUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserList">
+                  </a> <!-- getUserList -->
+                  <span class="method-name">getUserList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(eve.holt@reqres.in, cityslicka)">
+                  </a> <!-- login(eve.holt@reqres.in, cityslicka) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(eve.holt@reqres.in, cityslicka)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFailure">
+                  </a> <!-- loginFailure -->
+                  <span class="method-name">loginFailure</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="success_register(eve.holt@reqres.in, cityslicka)">
+                  </a> <!-- success_register(eve.holt@reqres.in, cityslicka) -->
+                  <span class="method-name">success_register</span>
+                  <span class="parameters">(eve.holt@reqres.in, cityslicka)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unsuccess_register">
+                  </a> <!-- unsuccess_register -->
+                  <span class="method-name">unsuccess_register</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rest_API_Test_Suite_-class-passed -->
+        </div> <!-- panel Rest_API_Test_Suite_ -->
+        <div panel-name="test-xml-Rest_API_Test_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Marisha\Desktop\ll\WBLRest\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Rest API Test Suite &quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestRequestResponse&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestRequestResponse&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestRequestResponse --&gt;
+&lt;/suite&gt; &lt;!-- Rest API Test Suite  --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Rest_API_Test_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Rest API Test Suite </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestRequestResponse (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Rest_API_Test_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Rest API Test Suite </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Rest_API_Test_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Rest API Test Suite </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Rest_API_Test_Suite_');
+function tableData_Rest_API_Test_Suite_() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'create_User')
+data.setCell(0, 2, 'TestRequestResponse')
+data.setCell(0, 3, 2327);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'unsuccess_register')
+data.setCell(1, 2, 'TestRequestResponse')
+data.setCell(1, 3, 481);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'success_register')
+data.setCell(2, 2, 'TestRequestResponse')
+data.setCell(2, 3, 456);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginFailure')
+data.setCell(3, 2, 'TestRequestResponse')
+data.setCell(3, 3, 445);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'login')
+data.setCell(4, 2, 'TestRequestResponse')
+data.setCell(4, 3, 426);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'delete')
+data.setCell(5, 2, 'TestRequestResponse')
+data.setCell(5, 3, 294);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getUserList')
+data.setCell(6, 2, 'TestRequestResponse')
+data.setCell(6, 3, 154);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getUser')
+data.setCell(7, 2, 'TestRequestResponse')
+data.setCell(7, 3, 140);
+window.suiteTableData['Rest_API_Test_Suite_']= { tableData: data, tableDiv: 'times-div-Rest_API_Test_Suite_'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-Rest_API_Test_Suite_">
+              </div> <!-- times-div-Rest_API_Test_Suite_ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Rest_API_Test_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Rest API Test Suite </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Rest_API_Test_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Rest_API_Test_Suite_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestRequestResponse</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">create_User(Priya, Teacher)</span>
+                <span class="method-start">725 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUserList</span>
+                <span class="method-start">3054 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">unsuccess_register</span>
+                <span class="method-start">3209 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">success_register(eve.holt@reqres.in, cityslicka)</span>
+                <span class="method-start">3724 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginFailure</span>
+                <span class="method-start">4181 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUser</span>
+                <span class="method-start">4626 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(eve.holt@reqres.in, cityslicka)</span>
+                <span class="method-start">4791 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">delete</span>
+                <span class="method-start">5218 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

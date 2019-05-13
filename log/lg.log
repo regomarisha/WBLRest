@@ -1,0 +1,72 @@
+2019-05-13 09:30:36 INFO   TEST REST API :56 - In create_User() method
+2019-05-13 09:30:36 INFO   TEST REST API :57 - Testcase to create user
+2019-05-13 09:30:36 INFO   TEST REST API :60 - URL is https://reqres.in/api/users
+2019-05-13 09:30:38 INFO   TEST REST API :41 - In method getUserList()
+2019-05-13 09:30:38 INFO   TEST REST API :42 - Testcase to get the list of users
+2019-05-13 09:30:38 INFO   TEST REST API :44 - URL is https://reqres.in/api/unknown
+2019-05-13 09:30:38 INFO   TEST REST API :133 - In unsuccess_register() method
+2019-05-13 09:30:38 INFO   TEST REST API :134 - Testcase to register user/invalid case
+2019-05-13 09:30:38 INFO   TEST REST API :137 - URL is https://reqres.in/api/register
+2019-05-13 09:30:39 INFO   TEST REST API :109 - In success_register() method
+2019-05-13 09:30:39 INFO   TEST REST API :110 - Testcase to register user
+2019-05-13 09:30:39 INFO   TEST REST API :113 - URL is https://reqres.in/api/register
+2019-05-13 09:30:39 INFO   TEST REST API :175 - In login() method
+2019-05-13 09:30:39 INFO   TEST REST API :176 - Testcase to login/invalid
+2019-05-13 09:30:39 INFO   TEST REST API :179 - URL is https://reqres.in/api/login
+2019-05-13 09:30:40 INFO   TEST REST API :82 - In getUser() method
+2019-05-13 09:30:40 INFO   TEST REST API :83 - Testcase to get the user details using user_id
+2019-05-13 09:30:40 INFO   TEST REST API :85 - URL is https://reqres.in/api/unknown/2
+2019-05-13 09:30:40 INFO   TEST REST API :151 - In login() method
+2019-05-13 09:30:40 INFO   TEST REST API :152 - Testcase to login
+2019-05-13 09:30:40 INFO   TEST REST API :155 - URL is https://reqres.in/api/login
+2019-05-13 09:30:40 INFO   TEST REST API :95 - In delete() method
+2019-05-13 09:30:40 INFO   TEST REST API :96 - Testcase to delete user
+2019-05-13 09:30:40 INFO   TEST REST API :99 - URL is https://reqres.in/api/users/758
+2019-05-13 10:03:12 INFO   TEST REST API :56 - In create_User() method
+2019-05-13 10:03:12 INFO   TEST REST API :57 - Testcase to create user
+2019-05-13 10:03:12 INFO   TEST REST API :60 - URL is https://reqres.in/api/users
+2019-05-13 10:03:14 INFO   TEST REST API :41 - In method getUserList()
+2019-05-13 10:03:14 INFO   TEST REST API :42 - Testcase to get the list of users
+2019-05-13 10:03:14 INFO   TEST REST API :44 - URL is https://reqres.in/api/unknown
+2019-05-13 10:03:15 INFO   TEST REST API :133 - In unsuccess_register() method
+2019-05-13 10:03:15 INFO   TEST REST API :134 - Testcase to register user/invalid case
+2019-05-13 10:03:15 INFO   TEST REST API :137 - URL is https://reqres.in/api/register
+2019-05-13 10:03:15 INFO   TEST REST API :109 - In success_register() method
+2019-05-13 10:03:15 INFO   TEST REST API :110 - Testcase to register user
+2019-05-13 10:03:15 INFO   TEST REST API :113 - URL is https://reqres.in/api/register
+2019-05-13 10:03:16 INFO   TEST REST API :175 - In login() method
+2019-05-13 10:03:16 INFO   TEST REST API :176 - Testcase to login/invalid
+2019-05-13 10:03:16 INFO   TEST REST API :179 - URL is https://reqres.in/api/login
+2019-05-13 10:03:16 INFO   TEST REST API :82 - In getUser() method
+2019-05-13 10:03:16 INFO   TEST REST API :83 - Testcase to get the user details using user_id
+2019-05-13 10:03:16 INFO   TEST REST API :85 - URL is https://reqres.in/api/unknown/2
+2019-05-13 10:03:16 INFO   TEST REST API :151 - In login() method
+2019-05-13 10:03:16 INFO   TEST REST API :152 - Testcase to login
+2019-05-13 10:03:16 INFO   TEST REST API :155 - URL is https://reqres.in/api/login
+2019-05-13 10:03:17 INFO   TEST REST API :95 - In delete() method
+2019-05-13 10:03:17 INFO   TEST REST API :96 - Testcase to delete user
+2019-05-13 10:03:17 INFO   TEST REST API :99 - URL is https://reqres.in/api/users/333
+2019-05-13 10:07:11 INFO   TEST REST API :56 - In create_User() method
+2019-05-13 10:07:11 INFO   TEST REST API :57 - Testcase to create user
+2019-05-13 10:07:11 INFO   TEST REST API :60 - URL is https://reqres.in/api/users
+2019-05-13 10:07:13 INFO   TEST REST API :41 - In method getUserList()
+2019-05-13 10:07:13 INFO   TEST REST API :42 - Testcase to get the list of users
+2019-05-13 10:07:13 INFO   TEST REST API :44 - URL is https://reqres.in/api/unknown
+2019-05-13 10:07:14 INFO   TEST REST API :133 - In unsuccess_register() method
+2019-05-13 10:07:14 INFO   TEST REST API :134 - Testcase to register user/invalid case
+2019-05-13 10:07:14 INFO   TEST REST API :137 - URL is https://reqres.in/api/register
+2019-05-13 10:07:14 INFO   TEST REST API :109 - In success_register() method
+2019-05-13 10:07:14 INFO   TEST REST API :110 - Testcase to register user
+2019-05-13 10:07:14 INFO   TEST REST API :113 - URL is https://reqres.in/api/register
+2019-05-13 10:07:15 INFO   TEST REST API :175 - In login() method
+2019-05-13 10:07:15 INFO   TEST REST API :176 - Testcase to login/invalid
+2019-05-13 10:07:15 INFO   TEST REST API :179 - URL is https://reqres.in/api/login
+2019-05-13 10:07:15 INFO   TEST REST API :82 - In getUser() method
+2019-05-13 10:07:15 INFO   TEST REST API :83 - Testcase to get the user details using user_id
+2019-05-13 10:07:15 INFO   TEST REST API :85 - URL is https://reqres.in/api/unknown/2
+2019-05-13 10:07:15 INFO   TEST REST API :151 - In login() method
+2019-05-13 10:07:15 INFO   TEST REST API :152 - Testcase to login
+2019-05-13 10:07:15 INFO   TEST REST API :155 - URL is https://reqres.in/api/login
+2019-05-13 10:07:16 INFO   TEST REST API :95 - In delete() method
+2019-05-13 10:07:16 INFO   TEST REST API :96 - Testcase to delete user
+2019-05-13 10:07:16 INFO   TEST REST API :99 - URL is https://reqres.in/api/users/929

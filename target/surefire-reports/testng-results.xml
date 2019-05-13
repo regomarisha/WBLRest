@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-05-13T17:07:10Z" name="Rest API Test Suite " finished-at="2019-05-13T17:07:16Z" duration-ms="5522">
+    <groups>
+    </groups>
+    <test started-at="2019-05-13T17:07:10Z" name="TestRequestResponse" finished-at="2019-05-13T17:07:16Z" duration-ms="5522">
+      <class name="TestRequestResponse">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestRequestResponse@133e16fd]" started-at="2019-05-13T17:07:10Z" name="setup" finished-at="2019-05-13T17:07:11Z" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="create_User(java.lang.String, java.lang.String)[pri:0, instance:TestRequestResponse@133e16fd]" started-at="2019-05-13T17:07:11Z" name="create_User" data-provider="createUser" finished-at="2019-05-13T17:07:13Z" duration-ms="2327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Priya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Teacher]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_User -->
+        <test-method signature="getUserList()[pri:1, instance:TestRequestResponse@133e16fd]" started-at="2019-05-13T17:07:13Z" name="getUserList" finished-at="2019-05-13T17:07:14Z" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserList -->
+        <test-method signature="unsuccess_register()[pri:2, instance:TestRequestResponse@133e16fd]" started-at="2019-05-13T17:07:14Z" name="unsuccess_register" finished-at="2019-05-13T17:07:14Z" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsuccess_register -->
+        <test-method signature="success_register(java.lang.String, java.lang.String)[pri:3, instance:TestRequestResponse@133e16fd]" started-at="2019-05-13T17:07:14Z" name="success_register" data-provider="loginData" finished-at="2019-05-13T17:07:15Z" duration-ms="456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve.holt@reqres.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- success_register -->
+        <test-method signature="loginFailure()[pri:4, instance:TestRequestResponse@133e16fd]" started-at="2019-05-13T17:07:15Z" name="loginFailure" finished-at="2019-05-13T17:07:15Z" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailure -->
+        <test-method signature="getUser()[pri:5, instance:TestRequestResponse@133e16fd]" started-at="2019-05-13T17:07:15Z" name="getUser" finished-at="2019-05-13T17:07:15Z" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:6, instance:TestRequestResponse@133e16fd]" started-at="2019-05-13T17:07:15Z" name="login" data-provider="loginData" finished-at="2019-05-13T17:07:16Z" duration-ms="426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve.holt@reqres.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="delete()[pri:7, instance:TestRequestResponse@133e16fd]" started-at="2019-05-13T17:07:16Z" name="delete" finished-at="2019-05-13T17:07:16Z" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- TestRequestResponse -->
+    </test> <!-- TestRequestResponse -->
+  </suite> <!-- Rest API Test Suite  -->
+</testng-results>

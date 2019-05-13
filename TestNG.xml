@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "Rest API Test Suite " parallel="false">
+    <test name="TestRequestResponse" parallel="false" >
+        <classes>
+            <class name="TestRequestResponse"/>
+        </classes>
+    </test>
+</suite>
