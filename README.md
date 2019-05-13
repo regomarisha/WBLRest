@@ -14,10 +14,19 @@ Surefire Plugin is used to generates reports .
 By default, report files are generated in ${basedir}/target/surefire-reports/TEST-*.xml.
 
 
-TEST RUN
- Test can be run
+
+
+
+
+Test can be run
+
+ 
 By executing TestRequestResponse.java
+
         or
+
 By  executing TestNG.xml
-         or
+
+      or
+      
 By running maven commands eg:mvn test
